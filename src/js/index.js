@@ -19,6 +19,11 @@ personagens.forEach((personagem) => {
 
         const idSelecionado = personagem.attributes.id.value;
 
+        if (window.innerWidth < 450) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        //scroll quando seleciona personagem no mobile
+
         /* 
             OBJETIVO 1 - quando passar o mouse em cima do personagem temos que:
     

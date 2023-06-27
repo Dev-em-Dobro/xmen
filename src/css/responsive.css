@@ -1,3 +1,9 @@
+@media (max-width: 1200px) {
+    .cabecalho .logo {
+       max-width: 170px;
+    }
+}
+
 @media (max-width: 1122px) {
     .cabecalho .logo {
        max-width: 200px;
@@ -11,6 +17,7 @@
 
     .selecao-de-personagens .personagens {
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .selecao-de-personagens .personagens .titulo {
@@ -35,7 +42,7 @@
         width: 90%;
     }
 
-    .personagem-selecionado #descricao-personagem {
+    .personagem-selecionado .descricao-personagem {
         width: 98%;
         padding: 15px;
         font-size: 15px;
@@ -45,14 +52,5 @@
 @media (max-width: 375px) {
     .cabecalho .logo {
         max-width: 120px;
-    }
-
-    .personagem-selecionado .personagem-grande {
-        width: 200px;
-        height: 200px;
-    }
-
-    .selecao-de-personagens .personagens {
-        margin-block: 35px;
     }
 }

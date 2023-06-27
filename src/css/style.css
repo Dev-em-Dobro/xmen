@@ -81,13 +81,13 @@ body::before {
     height: 430px;
 }
 
-.personagem-selecionado #nome-personagem {
+.personagem-selecionado .nome-personagem {
     border-bottom: 2px solid #47f4ff;
     letter-spacing: 0.3em;
     text-transform: uppercase;
 }
 
-.personagem-selecionado #descricao-personagem {
+.personagem-selecionado .descricao-personagem {
     font-family: "Oxanium";
     font-size: 16px;
     line-height: 22px;
