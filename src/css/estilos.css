@@ -69,6 +69,7 @@ body::before {
 
 .personagem-selecionado {
 	text-align: center;
+    max-height: 530px;
 }
 
 .personagem-selecionado .personagem-grande {
