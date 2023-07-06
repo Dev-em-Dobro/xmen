@@ -1,8 +1,4 @@
 @media (max-width: 1120px) {
-	body {
-		padding: 40px 10px;
-	}
-
 	.cabecalho .logo {
 		max-width: 190px;
 	}
